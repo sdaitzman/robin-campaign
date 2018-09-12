@@ -4,7 +4,7 @@ var img = document.querySelector('#meme')
 img.src = '/img/' + randomInterval(1,8) + '.jpg'
 
 var audioElement = document.getElementsByTagName("audio")[0]
-$('#meme').mouseenter(function(event) { audioElement.play() })
+$('#meme').hover(function(event) { audioElement.play() })
 
 function BEES() {
 	document.querySelector('#bees').innerHTML = `According to all known laws
